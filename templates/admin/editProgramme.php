@@ -25,9 +25,16 @@
 
             <li>
                 <label for="url_image">URL de l'image Programme </label>
-                <textarea name="url_image" id="url_image" placeholder="Brief description of the programme" required
+                <textarea name="url_image" id="url_image" placeholder="Url de l'image" required
                     maxlength="1000"
                     style="height: 5em;"><?php echo htmlspecialchars( $results['programme']->url_image )?></textarea>
+            </li>
+
+            <li>
+                <label for="dayofweek">Jour du Programme </label>
+                <textarea name="dayofweek" id="dayofweek" placeholder="Jour du programme" required
+                    maxlength="1000"
+                    style="height: 5em;"><?php echo htmlspecialchars( $results['programme']->dayofweek )?></textarea>
             </li>
 
             <li>

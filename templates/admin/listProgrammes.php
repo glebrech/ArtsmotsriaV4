@@ -36,7 +36,7 @@
 
     </table>
 
-    <p><?php echo $results['totalRows']?> programme<?php echo ( $results['totalRows'] != 1 ) ? 's' : '' ?> in total.</p>
+    <p><?php echo $results['totalRows']?> programme<?php echo ( $results['totalRows'] != 1 ) ? 's' : '' ?> au total.</p>
 
     <p><a href="admin.php?action=newProgramme">Ajouter un nouveau Programme</a></p>
 
