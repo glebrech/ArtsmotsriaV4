@@ -2,7 +2,7 @@
 <div class="main backgroundAdmin">
     <div id="adminHeader">
         <h2>ArtsMotsRia Admin</h2>
-        <p>Vous êtes connecté en tant <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a
+        <p>Vous êtes connecté en tant qu' <b><?php echo htmlspecialchars( $_SESSION['username']) ?></b>. <a
                 href="admin.php?action=logout" ?>Déconnexion</a></p>
     </div>
 
